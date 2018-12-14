@@ -63,7 +63,7 @@ std::string TransBase::affiche() const
 {
 	std::ostringstream out;
 	out << std::setiosflags (std::ios::fixed | std::ios::showpoint) << std::setprecision(2);
-	out <<  villeDepart + " à " + villeArrivee + " (" <<  distance << "km)";
+	out <<  villeDepart + " à " + villeArrivee + " (" <<  distance << " km)";
 	return out.str();
 }
 

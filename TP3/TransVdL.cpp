@@ -41,7 +41,7 @@ std::string TransVdL::affiche() const
 	std::ostringstream out;
 	out << std::setiosflags (std::ios::fixed | std::ios::showpoint) << std::setprecision(2);
 	out << villeDepart + " à " + villeArrivee + " (" << distance << " km, prix de base $" << 
-			PrixBase << ", prix par kilomètre $"  << PrixParKm << ")";
+			PrixBase << ", prix par km $"  << PrixParKm << ")";
 			
 	return out.str();
 }

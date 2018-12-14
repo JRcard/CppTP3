@@ -1,0 +1,42 @@
+
+--------------------------------------------
+
+
+Version initiale de l'étape 1 :
+maison à destination (100.00 km)
+Version mise à jour de l'étape 1 :
+Drummondville à Montréal (120.00 km)
+
+Version initiale de l'étape 2 :
+Montréal à Londres (5500.00 km, Tarif $22.00, duree 11.00 heures)
+Version mise à jour de l'étape 2:
+Montréal à Londres (5500.00 km, Tarif $850.00, duree 6.00 heures)
+
+Version initiale de l'étape 3 :
+Londres à Oxford (95.00 km, prix de base $33.00, prix par km $44.00)
+Version mise à jour de l'étape 3 :
+Londres à Oxford (95.00 km, prix de base $50.00, prix par km $0.10)
+
+--------------------------------------------
+
+Avec un carburant à $1.25 par litre:
+Voyage Londres [Drummondville, Montréal, Londres, Oxford]
+    1: Drummondville à Montréal (120.00 km)
+        coût: 7.50$
+        temps: 1.50 heures
+    2: Montréal à Londres (5500.00 km, Tarif $850.00, duree 6.00 heures)
+        coût: 850.00$
+        temps: 6.00 heures
+    3: Londres à Oxford (95.00 km, prix de base $50.00, prix par km $0.10)
+        coût: 65.44$
+        temps: 1.19 heures
+Distance totale: 5715.00 kms.
+Coût total: 922.94$
+Durée du voyage: 8.69 heures
+Ce voyage n'est pas un aller retour.
+
+--------------------------------------------
+
+Avec un carburant à $1.20 le litre, le coût total de ce voyage est : 922.40
+
+--------------------------------------------

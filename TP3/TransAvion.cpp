@@ -46,7 +46,7 @@ std::string TransAvion::affiche() const
 	std::ostringstream out;
 	out << std::setiosflags (std::ios::fixed | std::ios::showpoint) << std::setprecision(2);
 	out << villeDepart + " à " + villeArrivee + " (" << distance << " km, Tarif $" << 
-			Tarif << ", durée "  << Duree << " heure)";
+			Tarif << ", duree "  << Duree << " heures)";
 			
 	return out.str();
 }
