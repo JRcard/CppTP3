@@ -82,12 +82,3 @@ void TransBase::setPrixCarburant(double prix)
 {
 	TransBase::dollarsParLitre = prix;
 }
-
-/*int main()
-{
-	TransBase tb("Montreal", "Quebec", 270);
-	std::cout << "compilation transBase test\n";
-	std::cout << tb;
-	std::cout << std::endl;
-	return 0;
-}*/

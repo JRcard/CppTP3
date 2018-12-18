@@ -51,12 +51,3 @@ std::ostream& operator << (std::ostream& sortie, const TransVdL& VdL)
 	sortie << VdL.affiche();
 	return sortie;
 }
-
-/*int main()
-{
-	TransVdL VdL("Montreal", "Quebec", 95, 50, 0.1);
-	std::cout << "compilation transBase test\n";
-	std::cout << VdL;
-	std::cout << "    Cout: " << VdL.getCout() << std::endl;
-	return 0;
-}*/

@@ -56,12 +56,3 @@ std::ostream& operator << (std::ostream& sortie, const TransAvion& VdL)
 	sortie << VdL.affiche();
 	return sortie;
 }
-
-/*int main()
-{
-	TransAvion vol("Montreal", "Venise", 5000, 2.3, 200);
-	std::cout << "compilation transAvion test\n";
-	std::cout << vol;
-	std::cout << std::endl;
-	return 0;
-}*/
